@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #252a40ff;
+	color: white;
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	padding: 0.5rem;
+}
+
+/* Left Side */
+
+.col1 {
+	padding: 8rem;
+	width: ;
+}
+
+.col1 p {
+	margin-top: 1rem;
+}
+
+.col1 input {
+	outline: none;
+	appearance: none;
+	border: none;
+	background-color: whitesmoke;
+	padding: 1rem;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+.content {
+	display: flex;
+	justify-content: end;
+	background-color: white;
+	width: 50%;
+	height: 100vh;
+	min-height: max-content;
+	padding: 2rem;
+	border-radius: 20px;
+}
