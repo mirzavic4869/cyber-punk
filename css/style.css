@@ -2,20 +2,25 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background-color: #252a40ff;
-	color: white;
+
 	font-family: "Roboto", sans-serif;
 }
 
+body {
+	background-color: #252a40ff;
+}
 .container {
 	padding: 0.5rem;
 }
 
 /* Left Side */
 
+/* Title */
 .col1 {
 	padding: 8rem;
-	width: ;
+	width: 50%;
+	float: left;
+	color: white;
 }
 
 .col1 p {
@@ -30,15 +35,80 @@
 	padding: 1rem;
 	border-radius: 15px;
 	margin-top: 20px;
+	width: 100%;
 }
 
-.content {
-	display: flex;
-	justify-content: end;
-	background-color: white;
+.col2 {
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 	width: 50%;
 	height: 100vh;
 	min-height: max-content;
-	padding: 2rem;
 	border-radius: 20px;
+	float: left;
+	padding: 4rem;
 }
+
+/* Projects */
+.projects h4 {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.projects span {
+	color: cadetblue;
+}
+
+.column {
+	float: left;
+	width: 33%;
+	padding: 20px;
+}
+
+.menu1 h3 {
+	background-color: firebrick;
+	text-align: center;
+	padding: 28px;
+	border-radius: 10px;
+}
+
+.menu2 h3 {
+	background-color: rgb(86, 149, 222);
+	text-align: center;
+	padding: 28px;
+	border-radius: 10px;
+}
+
+.menu3 h3 {
+	background-color: rgb(60, 159, 118);
+	text-align: center;
+	padding: 28px;
+	border-radius: 10px;
+}
+
+.menu4 h3 {
+	background-color: rgb(248, 143, 143);
+	text-align: center;
+	padding: 28px;
+	border-radius: 10px;
+}
+
+.menu5 h3 {
+	background-color: rgb(255, 228, 20);
+	text-align: center;
+	padding: 28px;
+	border-radius: 10px;
+}
+
+.menu6 h3 {
+	background-color: rgb(195, 134, 216);
+	text-align: center;
+	padding: 28px;
+	border-radius: 10px;
+}
+
+.column h6 {
+	text-align: center;
+}
+
+/* Right Side */
